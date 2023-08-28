@@ -5,3 +5,6 @@ import graphviz
 
 iris = load_iris()
 X, y = iris.data, iris.target
+
+clf = tree.DecisionTreeClassifier()
+clf = clf.fit(X, y)
